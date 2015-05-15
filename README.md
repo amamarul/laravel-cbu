@@ -23,16 +23,16 @@ First off, you need to set a CBU value
 
 You can now use helpers functions
 
-##### isValid()
+##### isValid()    _(boolean)_
 
     Cbu::set('23456789')->isValid();
 
-##### bank()
+##### bank()    _(string|null)_
 Returns the Bank Name
 
     Cbu::set('23456789')->bank();
 
-##### bankId()
+##### bankId()    _(string)_
 Returns the Bank ID #
 
     Cbu::set('23456789')->bankId();
