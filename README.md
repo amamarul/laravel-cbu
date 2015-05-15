@@ -1,8 +1,6 @@
 Clave Bancaria Uniforme
 =======================
 
-Working on a project I needed to validate customers CBU, and I didn't like any of the available options so I decided to make my own.
-
 ### Installation
 __composer.json__
 
@@ -38,3 +36,6 @@ Returns the Bank Name
 Returns the Bank ID #
 
     Cbu::set('23456789')->bankId();
+
+
+`Only dead fish go with the flow.`
