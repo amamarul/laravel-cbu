@@ -19,7 +19,7 @@
          * @param string
          * @return Cbu
          */
-        public function cbu($cbu){
+        public function set($cbu){
             $this->cbu = $cbu;
             return $this;
         }
